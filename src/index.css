@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-*: initial;
+  --color-neutral-900: #172339;
+  --color-neutral-500: #49566d;
+  --color-hover: #979797;
+  --color-neutral-200: #f3ede7;
+  --color-neutral-0: #faf8f6;
+  --color-purple-500: #cb30e3;
+}
+
+@theme {
+  --font-display: "Epilogue", sans-serif;
+}
+
+body {
+  @apply font-display;
+}
+img {
+  @apply w-full h-full block;
+}
