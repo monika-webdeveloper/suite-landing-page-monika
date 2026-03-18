@@ -15,7 +15,10 @@ const Footer = () => {
         {/* social icons container */}
         <div className='flex gap-8'>
           <div>
-            <a className='cursor-pointer z-1' href='#'>
+            <a
+              className='cursor-pointer z-1'
+              href='https://www.facebook.com/?locale=pl_PL'
+            >
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 width='20'
@@ -28,7 +31,7 @@ const Footer = () => {
             </a>
           </div>
           <div className='w-5'>
-            <a className='cursor-pointer' href='#'>
+            <a className='cursor-pointer' href='https://x.com/?lang=pl'>
               <svg
                 width='20'
                 height='17'
@@ -41,7 +44,7 @@ const Footer = () => {
             </a>
           </div>
           <div className='w-5'>
-            <a className='cursor-pointer' href='#'>
+            <a className='cursor-pointer' href='https://www.instagram.com/'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 width='20'
