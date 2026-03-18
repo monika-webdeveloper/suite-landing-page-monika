@@ -37,7 +37,8 @@ const Main = () => {
                       <img
                         src={PatternCurved}
                         className='block h-full w-full '
-                        alt='black curved line'
+                        alt=''
+                        aria-hidden='true'
                       />
                     </div>
                   </span>
