@@ -24,13 +24,17 @@ const TestimonialContainer = () => {
           <div className='w-100 h-100 absolute -bottom-5 z-2 lg:w-150 lg:h-150 lg:-right-10 lg:top-10'>
             <img
               src={PatternBlur}
-              alt='pattern blur'
+              alt='purple oval blurred circle'
               className='w-full h-full block rounded-full'
             />
           </div>
           {/* path container */}
           <div className='w-16 lg:-mt-35'>
-            <img src={PatternCurved} alt='pattern' className='w-full h-full' />
+            <img
+              src={PatternCurved}
+              alt='white curved line'
+              className='w-full h-full'
+            />
           </div>
         </div>
         {/* testimonial content */}

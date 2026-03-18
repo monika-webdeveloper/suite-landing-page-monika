@@ -12,7 +12,11 @@ const Main = () => {
       {/* navbar */}
       <nav className='flex justify-between items-center'>
         <div>
-          <img src={logo} alt='company logo' className='w-full h-full block' />
+          <img
+            src={logo}
+            alt='suite company logo'
+            className='w-full h-full block'
+          />
         </div>
         <Button className='text-neutral-950 h-12 hover:bg-neutral-900 hover:text-neutral-0 focus:outline-3 focus:outline-neutral-900 focus:outline-offset-4 focus:bg-neutral-0 focus:text-neutral-900' />
       </nav>
@@ -33,7 +37,7 @@ const Main = () => {
                       <img
                         src={PatternCurved}
                         className='block h-full w-full '
-                        alt='pattern curved'
+                        alt='black curved line'
                       />
                     </div>
                   </span>
@@ -54,7 +58,7 @@ const Main = () => {
               <source media='(min-width: 768px)' srcSet={HeroImageTablet} />
               <img
                 src={HeroImageMobile}
-                alt='hero image'
+                alt='vertical mobile phone  image'
                 className='rounded-2xl block h-full w-full object-cover md:rounded-br-none md:rounded-tr-none  xl:rounded-2xl'
               />
             </picture>
