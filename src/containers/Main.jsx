@@ -33,6 +33,7 @@ const Main = () => {
                       <img
                         src={PatternCurved}
                         className='block h-full w-full '
+                        alt='pattern curved'
                       />
                     </div>
                   </span>
